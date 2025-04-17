@@ -54,5 +54,36 @@ public class DetailPage {
     {
         return Browser.getText(weightProduct);
     }
+    public String getQuantity()
+    {
+        return Browser.getElement(quantity).getAttribute("value");
+
+    }
+    public void clickVentor()
+    {
+         Browser.click(ventorProduct);
+    }
+    public void clickTypeProduct()
+    {
+        Browser.click(typeProduct);
+    }
+    public void clickPlusIcon()
+    {
+        Browser.click(quantityplus);
+    }
+    public void clickMinIcon()
+    {
+        Browser.click(quantityminis);
+    }
+    public void senkeyQuantity(String s)
+    {
+        Browser.fill(quantity,s);
+    }
+    public void ClearQuantity()
+    {
+        Browser.getDriver().findElement(By.xpath("//input[@id='quantity']")).clear();
+
+    }
+
 
 }
