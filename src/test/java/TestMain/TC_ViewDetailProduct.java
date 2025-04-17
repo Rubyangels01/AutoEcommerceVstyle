@@ -174,7 +174,7 @@ public class TC_ViewDetailProduct {
     // THAO TÁC BẰNG TAY VỚI SỐ LƯỢNG SẢN PHẨM
 
     // XÁC MINH SỐ LƯỢNG SẢN PHẨM HIỂN THỊ MẶC ĐỊNH LÀ 1 SAU KHI NHẤN DẤU (+), QUAY VỀ TRANG DANH SÁCH VÀ TRUY CẬP LẠI TRANG CHI TIẾT
-    
+
 
 
 
