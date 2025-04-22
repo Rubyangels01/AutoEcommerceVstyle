@@ -8,12 +8,19 @@ import java.util.*;
 
 public class DataProviderUtils {
 
-    @DataProvider(name = "productData")
-    public static Object[][] productData() throws IOException {
+    @DataProvider(name = "quantityData")
+    public static Object[][] quantityValidData() throws IOException {
         return new Object[][]
                 {
-                        {"Nhung","123"},
-                        {"Khanh","345"}
+                        {"1"},
+                        {"2"},{"50"},{"99"},{"100"}
+                };
+    }
+    @DataProvider(name = "quantityDataInvalid")
+    public static Object[][] quantityInValidData() throws IOException {
+        return new Object[][]{
+                        {" "},
+                        {"abc"},{"-10"},{"-1"},{"0"},{"+0"},{"+1"},{"101"},{"999"},{"1.5"}
                 };
     }
 

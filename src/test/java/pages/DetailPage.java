@@ -84,6 +84,10 @@ public class DetailPage {
         Browser.getDriver().findElement(By.xpath("//input[@id='quantity']")).clear();
 
     }
+    public void clickAddBtn()
+    {
+        Browser.click(btnAddProduct);
+    }
 
 
 }

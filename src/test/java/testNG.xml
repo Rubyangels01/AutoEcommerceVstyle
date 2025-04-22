@@ -14,7 +14,7 @@
 <!--            </class>-->
             <class name="TestMain.TC_ViewDetailProduct">
                 <methods>
-                    <include name="TC_VerifyIncreaseQuantityWhenClickMinis"/>
+                    <include name="TC_ValidQuatity"/>
                 </methods>
             </class>
         </classes>

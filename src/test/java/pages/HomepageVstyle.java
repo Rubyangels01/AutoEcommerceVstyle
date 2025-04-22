@@ -30,6 +30,7 @@ public class HomepageVstyle {
     private By subcategoryNuocHoa = By.xpath("(//li[@class =' '])[2]/div/ul/li");
     private By subcategoryNuocHoaNu = By.xpath("((//li[@class =' '])[2]/div/ul/li/a)[1]");
     private By subcategoryNuocHoaNam = By.xpath("//ul[contains(@class, 'js-center ')]/li[2]/div/ul/li[2]");
+    private By iconCart = By.xpath("(//div[contains(@class,'list-inline-item-text')])[5]/a");
 
 
     public By getIconshopsystem() {
@@ -187,6 +188,10 @@ public class HomepageVstyle {
     public String getColorOfNuocHoaNu()
     {
         return Browser.getColorOfElement(subcategoryNuocHoaNu);
+    }
+    public void clickIconCart()
+    {
+        Browser.click(iconCart);
     }
 
 
