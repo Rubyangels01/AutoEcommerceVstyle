@@ -12,10 +12,14 @@
 <!--                    <include name="TC_displayInformationOfProduct"/>-->
 <!--                </methods>-->
 <!--            </class>-->
-            <class name="TestMain.TC_ViewDetailProduct">
+<!--            <class name="TestMain.TC_ViewDetailProduct">-->
+<!--                -->
+<!--            </class>-->
+            <class name="TestMain.TC_Cart">
                 <methods>
-                    <include name="TC_ValidQuatity"/>
+                    <include name="TC_AddProductToCartInLisProduct"/>
                 </methods>
+
             </class>
         </classes>
     </test>
